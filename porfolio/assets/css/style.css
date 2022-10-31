@@ -1,0 +1,144 @@
+/*CSS Reset / Normalize*/
+/* Hemos disponibilizado el básico de reset de estilos. Si quieren, añadan más informaciones 
+en las secciones señaladas */
+/*Já deixaremos o básico de reset de estilos. Caso queira adicionar mais informações
+coloque nas sessões indicadas*/
+
+:root{
+    /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
+    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
+   --cor-de-fundo: #F5F5F5;
+   --cor-de-fundo-celeste: #d1eaf9;
+   --cor-de-link: #000;
+   --background-color-blanco: #ffffff;
+   --color-boton-azul: #2A7AE4;
+   --color-fuente-azul: #2A7AE4;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-de-fundo) ;
+    font-family: 'Raleway';
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+ol, ul,li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: var(--cor-de-link);
+}
+
+/*En este desafío nosostros gustaríamos que ustedes intentaran utilizar la metodología BEM. 
+
+Lo que es el BEM?
+
+BEM (Bloque, Elemento, Modificador) es un enfoque basado en componentes para el 
+desarrollo web. La idea detrás de esto es dividir la interfaz de usuario en bloques
+independientes. Esto hace que el desarrollo de la interfaz sea fácil y rápido, incluso
+con una interfaz de usuario compleja, y permite la reutilización del código existente sin copiar y pegar.
+
+Enlace de la documentación oficial!
+https://en.bem.info/methodology/quick-start/*/
+
+/*Sección Menu*/
+
+section.menu{
+    display: flex;
+	width: 90%;
+	margin: 2rem auto;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--cor-de-fundo);
+    font-family: 'Raleway';
+}
+
+/*Sección Title*/
+
+section.title{
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Raleway';
+    background-image: url(/./porfolio/assets/img/banner.png);
+    margin-bottom: 2rem; 
+    padding: 3rem;
+}
+
+/*Sección About*/
+
+section.about{
+    background: var(--cor-de-fundo-celeste);
+    text-align: left;
+    font-family: 'Raleway';
+    font-size: .9rem;
+    padding: 2rem;
+}
+
+section.skills {
+    padding: 2rem;
+    background: var(--cor-de-fundo);
+    margin-bottom: 2rem;
+    font-family: 'Raleway';
+}
+
+
+/*Sección Hobbies*/
+
+section.hobbies{
+    padding: 2rem;
+    background: var(--cor-de-fundo);
+    margin-bottom: 2rem;
+    font-family: 'Raleway';
+}
+
+/* Experiencia Académica*/
+
+section.academic{
+    padding: 2rem;
+    margin-bottom: 2rem;
+    background: var(--cor-de-fundo-celeste);
+    font-family: 'Raleway';
+}
+
+/* experiencia*/
+
+section.experience{
+    background: var(--cor-de-fundo);
+    font-family: 'Raleway';
+}
+
+/*Contacto*/
+
+section.formcontato{
+    padding: 2rem;
+    background: var(--cor-de-fundo-celeste);
+    font-family: 'Raleway';
+    margin: 1rem;
+}
+
+/*footeer*/
+
+section.footer{
+    display: flex;
+    justify-content: center;
+    background-color: var(--cor-de-fundo);
+    font-family: 'Raleway';
+}
+
+/* Vamos a desafiarnos trabajando con responsividad?
+Utiliza las referencias de los breakpoints @media abajo */
+
+
+/*Tablet*/
+@media (min-width: 768px) {
+ 
+}
+
+/*Mobile*/
+@media (min-width: 1024px) {
+
+
+}

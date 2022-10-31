@@ -1,0 +1,18 @@
+.menu__header, .menu__title, img {
+    display: flex;
+    align-items: center;
+    margin-bottom: .5rem;
+}
+
+ .menu__list, .menu__list__item {
+    display: flex;
+    font-size: 1rem;
+    margin-right: .4rem;
+    margin-bottom: .5rem;
+    margin-left: .5rem;
+}
+
+nav a:hover {
+    color: #808080;
+    text-decoration: transparent;
+}

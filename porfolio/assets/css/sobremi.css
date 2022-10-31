@@ -1,0 +1,10 @@
+.about__title {
+    text-decoration: solid;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.about__paragraph {
+    margin-bottom: 1rem; /*separo las lineas entre texto y texto*/
+    margin-right: 20rem; /*este ajusto el texto*/
+}

@@ -1,0 +1,56 @@
+.experience__section__title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.experiencie__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+    padding-top: 2rem;
+}
+
+.experience__img {
+    width: 49%;
+}
+
+.experience__title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+
+.experience__text {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-bottom: 1.2rem;
+}
+
+
+.botao {
+    box-sizing: border-box;
+    width: 100px;
+    height: 30px;
+    padding: .5rem .9rem;
+    border-radius: 5px;
+}
+
+
+.experiencia__botao--repo:hover {
+    border: 1px solid var(--color-boton-azul);
+    background-color: var(--background-color-blanco);
+}
+
+.experience__botao--demo:hover {
+    background-color: var(--color-boton-azul);
+    border: 1px solid transparent;
+}
